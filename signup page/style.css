@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Nunito', sans-serif;
+}
+.outer-box {
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(to top left, #3ed8ff, #a8f5ff);
+}
+.inner-box {
+    width: 400px;
+    margin: 0 auto;
+    position: relative;
+    top: 40%;
+    transform: translateY(-50%);
+    padding: 2px 40px;
+    background-color: #ffffff09;
+    backdrop-filter: blur(20px);
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px #2773a5;
+    z-index: 2;
+
+}
+.signup-header h1{
+    font-size: 2.5rem;
+    color: grey;
+}
+.signup-header p{
+    font-size: 0.8rem;
+    color: grey;
+}
+.sign-upbody{
+    margin: 20px 0;
+}
+.sign-upbody p{
+    margin: 10px 0;
+    font-size: 1rem;
+}
+.sign-upbody p label{
+    display: block;
+    font-weight: 700;
+
+}
+.sign-upbody p input{
+    width: 100%;
+    padding: 10px;
+    border: 2px solid goldenrod;
+    border-radius: 5px;
+    font-size: 1rem;
+    margin-top: 5px; 
+}
+.sign-upbody button{
+    font-size: 1rem;
+    background-color: #3498db;
+    width: 100%;
+    color: white;
+    cursor: pointer;
+}
+.sign-upbody button:hover{
+    background-color: #2773a5;
+}
+.signup-footer {
+    width: 100%;
+    color: grey;
+    text-align: center;
+}
+.circle {
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    background: linear-gradient(to right, #ffffff33, #ffffff);
+    position: absolute;
+}
+#c1 {
+    top: 100px;
+    left: 40px;
+}
+#c2{
+    bottom: 200px;
+    right: 50px;
+}
