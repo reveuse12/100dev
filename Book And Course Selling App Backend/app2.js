@@ -76,7 +76,7 @@ app.post("/admin/createbook",AdminAuth,(req,res)=>{
     res.json({message:"Book created successfully!",BookId:book.id});
 });
 
-app.post("/admin/createbook/:BookId",AdminAuth,(req,res)=>{
+app.put("/admin/createbook/:BookId",AdminAuth,(req,res)=>{
     const BookId = parseInt(req.params.BookId);
     const book = Books.find(b=>b.id===BookId);
     if(book){
